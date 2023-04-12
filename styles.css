@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.main {
+  width: 720px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.hero {
+  background-image: url("images/qujing.jpg");
+  height: 400px;
+  background-size: cover;
+  color: #dad5dd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  background: #62680a;
+  padding: 6px 15px;
+  border-radius: 10px;
+}
+
+#hero-p {
+  background: #537b49;
+  padding: 6px 15px;
+  border-radius: 10px;
+  line-height: 22px;
+}
+
+.natural-spots {
+  background: #dad5dd;
+  color: #62680a;
+  padding: 20px;
+}
+
+#natural-spots-title {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.spots-sum {
+  display: flex;
+  justify-content: space-around;
+}
+
+.spot {
+  width: 200px;
+}
+
+.natural-spots-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.spot-title {
+  font-size: 18px;
+}
+
+.spot-des {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.guide {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide-box {
+  width: 400px;
+  background: #62680a;
+  box-shadow: 0px 5px 0px #dad5dd;
+  border-radius: 10px;
+  color: #dad5dd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.guide-box:hover {
+  background: #62680a;
+  color: #fff;
+  box-shadow: 5px 6px 5px #dad5dd;
+}
+
+.guide img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+#guide-des {
+  font-size: 14px;
+  padding: 0 10px;
+}
